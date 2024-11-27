@@ -6,6 +6,7 @@ public class HolaMundo {
 		
 		System.out.println("No tengo mis gafas y no puedo ver nada, me cago en díos");
 		System.out.println("Me quiero morir");
+		System.out.println("holi");
 		
 		/*
 		 * Comentario 1
