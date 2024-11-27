@@ -34,18 +34,18 @@ public class Ejercicio5 {
 		experiencia = scan.nextInt();
 		
 		if(experiencia < 2) {
-			clasificacionPorExperiencia = "Becario Junior";
 			
-			if (edad < 18) {
+			if (edad >= 18 && edad <= 35) {
+				clasificacionPorExperiencia = "Especialista";
+				
+			}else if (edad < 18) {
 				clasificacionPorExperiencia = "Junior";
 				
-			}else if (edad >= 18 && edad <= 35) {
-				clasificacionPorExperiencia = "Especialista";
 			}
 			
 		}else {
 			
-			if (edad > 18 || edad < 35) {
+			if (edad > 18 && edad < 35) {
 				clasificacionPorExperiencia = "Senior";
 				
 			}
@@ -74,7 +74,7 @@ public class Ejercicio5 {
 			clasificacionPorSector = "Asistente En Ventas \n";
 		}
 		
-		System.out.println("El empleado es: " + clasificacionPorSector + " y tiene " + clasificacionPorEdad);
+		System.out.println("El empleado es: " + clasificacionPorSector + " y tiene " + clasificacionPorEdad + clasificacionPorExperiencia);
 		
 		scan.close();
 		
