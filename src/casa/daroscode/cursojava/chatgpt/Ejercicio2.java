@@ -19,6 +19,8 @@ public class Ejercicio2 {
 		
 		System.out.println(hora + " hora/s en minutos es: " + minutos);
 		System.out.println(hora + " hora/s en segundo es: " + segundo);
+		
+		scan.close();
 	}
 	
 

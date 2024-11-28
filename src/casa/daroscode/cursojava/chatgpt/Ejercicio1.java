@@ -19,6 +19,9 @@ public class Ejercicio1 {
 		double precioConDescuento = (descuento / 100) * precio;
 		
 		System.out.println("El precio del articulo es: " + precio + " y el descuento es: " + descuento + "\n Total a pagar es: " + (precio - precioConDescuento));
+		scan.close();
+		
+	
 	}
 	
 	
