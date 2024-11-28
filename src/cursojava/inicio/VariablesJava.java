@@ -1,4 +1,4 @@
-package es.cursojava.inicio;
+package cursojava.inicio;
 
 public class VariablesJava {
 	//Variables de instancia 
