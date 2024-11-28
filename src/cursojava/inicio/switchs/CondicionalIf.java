@@ -1,4 +1,4 @@
-package cursojava.condicionales.condicionales;
+package cursojava.inicio.switchs;
 
 public class CondicionalIf {
 	
