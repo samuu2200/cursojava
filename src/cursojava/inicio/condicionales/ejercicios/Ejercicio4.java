@@ -1,4 +1,4 @@
-package es.cursojava.inicio.condicionales.ejercicios;
+package cursojava.inicio.condicionales.ejercicios;
 
 import java.util.Scanner;
 

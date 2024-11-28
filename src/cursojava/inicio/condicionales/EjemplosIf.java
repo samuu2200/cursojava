@@ -1,4 +1,4 @@
-package es.cursojava.inicio.condicionales;
+package cursojava.inicio.condicionales;
 
 public class EjemplosIf {
 	

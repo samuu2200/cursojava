@@ -1,4 +1,4 @@
-package es.cursojava.inicio.operadoreslogicos.ejercicios;
+package cursojava.inicio.operadoreslogicos.ejercicios;
 
 import java.util.Scanner;
 

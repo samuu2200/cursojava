@@ -1,4 +1,4 @@
-package es.daroscode.cursojava.condicionales;
+package cursojava.condicionales.condicionales;
 
 public class CondicionalIf {
 	

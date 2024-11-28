@@ -1,4 +1,4 @@
-package es.cursojava.inicio.buclesfor;
+package cursojava.inicio.buclesfor;
 
 public class Explicacion {
 
