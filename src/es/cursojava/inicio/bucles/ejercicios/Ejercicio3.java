@@ -5,15 +5,12 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		
 		int esPar;
-		int esImpar;
+		int fuera = 99;
 		
 		for (esPar = 0; esPar <= 100; esPar += 2) {
 			
-			if(esPar % 2 != 0) {
-				
-				System.out.println(esPar + "-" + esPar);
-			}
-			
+			System.out.println(esPar + " - " + fuera);
+			fuera-=2;
 		}
 		
 		
