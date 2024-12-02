@@ -7,27 +7,22 @@ public class Ejercicio6 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Escribe un número: ");
+		int numero = scan.nextInt();
 		
-		
-		int numAlumnos = 0;
-		int pedirNota;
-		
-		System.out.print("Cuantos Alumnos hay en classe: ");
-		numAlumnos = scan.nextInt();
-		
-		for (int alumnos = 0; alumnos <= numAlumnos; alumnos++) {
+		do {
 			
-			for (pedirNota = 0; pedirNota <= alumnos; pedirNota++) {
-				
-				String sinplu = (numAlumnos > 1) ? " los " : " el ";
-				String sinplu2 = (numAlumnos > 1) ? " alumnos " : " alumno ";
-				System.out.print("Ingresa la nota de" + sinplu + numAlumnos + sinplu2);
-				pedirNota = scan.nextInt();
-				
-				System.out.println(alumnos + " nota: " + pedirNota);
+			boolean esPar = numero % 2 == 0;
+			if (esPar) {
+				numero = numero / 2;
+			}else {
+				numero = numero * 3 + 1;
 			}
 			
-		}
+			System.out.println(numero);
+			
+		} while (numero != 1);
 		
 	}
 	
