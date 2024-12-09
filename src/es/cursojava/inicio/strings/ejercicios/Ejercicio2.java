@@ -1,19 +1,23 @@
 package es.cursojava.inicio.strings.ejercicios;
 
+import java.util.Scanner;
+
 public class Ejercicio2 {
 	
-	/*
-	Escribe un programa que determine si un String 
-	ingresado por el usuario es un palíndromo (se lee igual 
-	de izquierda a derecha que de derecha a izquierda, ignorando mayúsculas y espacios).
-	*/
-
 	public static void main(String[] args) {
 		
-		String textoPalindromo = "reconocer";
+		Scanner scan = new Scanner(System.in);
 		
-		   
+		//Pedimos al usuario la de cadena de texto que quiere saber si es palindromo o no
+		System.out.print("Introduce una cadena de texto: ");
+		String texto = scan.nextLine();
+		
+		String textoPalindromo = "";
+		for (int i = texto.length() - 1; i >= 0; i++) {
+			textoPalindromo += texto.charAt(i);
+		}
+		
+
 		
 	}
-
 }
