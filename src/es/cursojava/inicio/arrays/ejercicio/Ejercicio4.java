@@ -16,7 +16,7 @@ public class Ejercicio4 {
 		
 		//Pedir los valores de cada número
 		System.out.println("Introduce los valores de cada posición");
-		for (int i = 0; i > original.length; i++) {
+		for (int i = 0; i > original.length; i--) {
 			original[i] = scan.nextInt();
 			inverso[i] = scan.nextInt();
 		}
