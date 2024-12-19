@@ -1,4 +1,4 @@
-package es.cursojava.inicio.pruebacasa;
+package es.cursojava. inicio.pruebacasa;
 
 import java.util.Scanner;
 

@@ -6,31 +6,37 @@ public class Ejercicio2 {
 	
 	public static void main(String[] args) {
 		
-		/*1-Pedir número de alumnos
-		  2-Crear array de String con el número de alumnos indicado
-		  3-Pedir para cada alumno su nombre y guardarlo en el array
-		  4-Mostrar el nombre de todos los alumnos
-		  5-Mostrar el nombre de todos los alumnos que empiecen por A
-		  */
-		
 		Scanner scan = new Scanner(System.in);
 		
-		int i = 1;
-		String alumnStartA = "";
-		String nameAlumn = "";
+		//Pedir el número de usuario que quiere introducir
+		System.out.print("Introduce el número de alumnos: ");
+		int numAlumnos = scan.nextInt();
+		scan.nextLine();
 		
-		do {
-			System.out.print("Introduce los nombres de los alumnos: ");
-			nameAlumn += scan.nextLine();
-			i++;
-		}while(i <= 5);
+		//Crear una array para almacenar los nombres
+		String[] alumnos = new String[numAlumnos];
 		
-		if (nameAlumn.startsWith("a")) {
-			
+		//Pedir los nombres de los alumnos y almacenarlos en el array
+		for (int i = 0; i < numAlumnos; i++) {
+			System.out.print("Introduce el nombre del alumno: " + (i + 1) + ": ");
+			alumnos[i] = scan.nextLine();
 		}
 		
+		// Mostrar todos los alumnos
+		for (int i = 0; i < numAlumnos; i++) {
 
+			System.out.println(alumnos[i]);
+		}
 		
+		//Mostrar números que empiezan por 'A'
+		System.out.println("\nNombres que empiezan por 'A'");
+		for (int i = 0; i < numAlumnos; i++) {
+			if (alumnos[i].charAt(0) == 'A' || alumnos[i].charAt(0) == 'a') {
+				System.out.println(alumnos[i]);
+			}
+		}
+		
+		scan.close();
 	}
 
 }
