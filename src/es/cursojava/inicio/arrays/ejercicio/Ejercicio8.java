@@ -48,7 +48,7 @@ public class Ejercicio8 {
                         System.out.println("Aula " + (i + 1) + ":");
                         for (int j = 0; j < 5; j++) {
                             if (aulas[i][j] != null) {
-                                System.out.println("- " + aulas[i][j]);
+                            	System.out.println("- " + aulas[i][j]);
                             } else {
                                 System.out.println("- [Vacío]");
                             }
