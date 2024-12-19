@@ -20,6 +20,9 @@ public class EjemploArrays {
 		numeros[1]=3;
 		System.out.println(numeros[1]);
 		
+		for (int numero : numeros) {
+			System.out.println(numero);
+		}
 
 	}
 
