@@ -59,7 +59,10 @@ public class Ejercicio3 {
 		
 		System.out.println(media);
 		
+		
+		
 	}
 	
 >>>>>>> branch 'master' of https://github.com/samuu2200/cursojava.git
 }
+  
