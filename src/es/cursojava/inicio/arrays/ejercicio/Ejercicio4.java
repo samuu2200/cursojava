@@ -21,7 +21,7 @@ public class Ejercicio4 {
 			inverso[i] = scan.nextInt();
 		}
 
-		
+		scan.close();
 
 	}
 
