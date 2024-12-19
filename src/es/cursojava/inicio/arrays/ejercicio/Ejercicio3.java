@@ -1,7 +1,6 @@
 package es.cursojava.inicio.arrays.ejercicio;
 
 public class Ejercicio3 {
-<<<<<<< HEAD
 	
 	public static void main(String[] args) {
 		
@@ -41,28 +40,8 @@ public class Ejercicio3 {
 				menor = numeros[i];
 			}
 		}
+
 	}
-
-=======
-
-	public static void main(String[] args) {
-		
-		//Meter los valores en un array
-		int[] numeros = {4,8,15,16,23,42};
-
-		int suma = 0;
-		for (int numero : numeros) {
-			suma = numero + suma;
-		}
-		
-		int media = suma / numeros.length;
-		
-		System.out.println(media);
-		
-		
-		
-	}
-	
->>>>>>> branch 'master' of https://github.com/samuu2200/cursojava.git
 }
+
   
