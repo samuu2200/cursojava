@@ -8,15 +8,15 @@ public class Ejercicio8 {
 		
 	  Scanner scanner = new Scanner(System.in);
 
-        // 1. Preguntar cuántas aulas tiene el colegio
+        // Preguntar cuántas aulas tiene el colegio
         System.out.print("¿Cuántas aulas tiene el colegio?: ");
         int numAulas = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el buffer
+        scanner.nextLine();
 
-        // Crear un array bidimensional para almacenar los alumnos (5 alumnos por aula)
+        // Crear un array bidimensional para almacenar los alumnos 
         String[][] aulas = new String[numAulas][5];
 
-        // Menú interactivo
+        // Menú
         int opcion;
         do {
             System.out.println("\nSelecciona una opción:");
@@ -27,7 +27,7 @@ public class Ejercicio8 {
             System.out.println("5. Salir");
             System.out.print("Opción: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine();
 
             switch (opcion) {
                 case 1: // Añadir alumnos
@@ -112,7 +112,6 @@ public class Ejercicio8 {
             }
         } while (opcion != 5);
 
-        // Cerrar el Scanner
         scanner.close();
 	}
 		
