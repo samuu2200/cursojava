@@ -8,19 +8,15 @@ public class Ejercicio1 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		//Solicitamos al usuario el texto que quiera invertir
-		System.out.println("Introduce el texto que quieras invertir:");
+		//Pedimos al usuario el texto que queremos invertir
+		System.out.print("Introduce el texto que quieras invertir ");
 		String texto = scan.nextLine();
+
+		char textoInvertido ;
 		
-		//Creamos una variable de textoInvertido
-		String textoInvertido = "";
-		
-		//Recorremos el texto desde la última posición hasta el principio
 		for (int i = texto.length() - 1; i >= 0; i--) {
-			textoInvertido += texto.charAt(i);
+			textoInvertido = texto.charAt(i);
+			System.out.print(textoInvertido);
 		}
-		
-		//Mostramos por consola el resultado
-		System.out.println("texto invertido: " + textoInvertido);
 	}
 }
