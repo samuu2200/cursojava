@@ -37,6 +37,8 @@ public class Ejercicio2 {
 				System.out.println(alumnosStartWidthA);
 			}
 		}
+
+		scan.close();
 	}
 
 }
