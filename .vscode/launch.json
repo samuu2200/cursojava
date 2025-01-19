@@ -1,0 +1,390 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EjercicioMenu",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.funciones.EjercicioMenu",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HolaMundo",
+            "request": "launch",
+            "mainClass": "HolaMundo",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.Ejercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(1)",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(1)",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(1)",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(1)",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio5",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio6",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio6",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio7",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio7",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8",
+            "request": "launch",
+            "mainClass": "casa.daroscode.cursojava.chatgpt.metodosstring.ejercicios.Ejercicio8",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "HolaMundo(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.HolaMundo",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresAritmeticos",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.OperadoresAritmeticos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.OperadoresLogicos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.Test",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "VariablesEjercicio",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.VariablesEjercicio",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "VariablesJava",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.VariablesJava",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "EjemploArrays",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.EjemploArrays",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.ejercicio.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.ejercicio.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.ejercicio.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.ejercicio.Ejercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.arrays.ejercicio.Ejercicio8",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "BucleDoWhile",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.BucleDoWhile",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "BucleFor",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.BucleFor",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "BucleWhile",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.BucleWhile",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(3)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(3)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(3)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(3)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio5",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio6(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio6",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio7(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio7",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.bucles.ejercicio2.Ejercicio8",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "EjemplosIf",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.condicionales.EjemplosIf",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "EjemplosSwitch",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.condicionales.EjemplosSwitch",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Test(1)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.condicionales.Test",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.condicionales.Test2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Test3",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.condicionales.Test3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "PruebaUtilidades",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.funciones.PruebaUtilidades",
+            "args": [
+                "inicio",
+                "nosotros",
+                "servicios"
+            ],
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(4)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.operadores.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(4)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.operadores.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(4)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.operadores.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(4)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.operadores.Ejercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5(2)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.operadores.Ejercicio5",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioMenu",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.pruebacasa.EjercicioMenu",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(5)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.strings.ejercicios.Ejercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(5)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.strings.ejercicios.Ejercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(5)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.strings.ejercicios.Ejercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(5)",
+            "request": "launch",
+            "mainClass": "es.cursojava.inicio.strings.ejercicios.Ejercicio4",
+            "projectName": "CursoJava"
+        }
+    ]
+}
