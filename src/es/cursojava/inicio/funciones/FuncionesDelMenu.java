@@ -2,7 +2,13 @@ package es.cursojava.inicio.funciones;
 
 public class FuncionesDelMenu {
 
-    // Mostrar menú
+    /**
+     * Función que sirve para pintar las opciones de un menú que llegan en un array de String's 
+     * @param menuArray Array Strings con las opciones del menú
+     * @samuu2200
+     * @since 1.0
+     * @return Devuelve todo lo que haya contenido en el array de String que en este caso es el menú
+     */
     public static void mostrarMenu() {
         String[] mostrarMenu = {"1. Añadir alumnos", "2. Mostrar alumnos", "3. Buscar Alumnos", "4. Borrar alumnos", "5. Salir"};
         for (String menu : mostrarMenu) {
@@ -11,6 +17,12 @@ public class FuncionesDelMenu {
     }
 
     // Añadir alumnos
+    /**
+     * Función que nos sirve para guardar los que nos pasan por un parametro (String[][]) y que lo que hace es recorrer el array que le pasamos por parametros, asignamos valores al array y lo mostramos
+     * @param numAulas
+     * @samuu2200
+     * @since 1.0
+     */
     public static void agregarAlumnos(String[][] numAulas) {
         for (int i = 0; i < numAulas.length; i++) {
             System.out.println("\nAñadiendo alumnos para el aula " + (i + 1) + ":");
@@ -23,6 +35,12 @@ public class FuncionesDelMenu {
     }
 
     // Mostrar alumnos
+    /**
+     * Función le pasamos un array la recoje para saber si hay alumnos y no muestra el resultado
+     * @param numAulas
+     * @samuu2200
+     * @since 1.0
+     */
     public static void mostrarAlumnos(String[][] numAulas) {
         System.out.println("\nAlumnos por aula:");
         for (int i = 0; i < numAulas.length ; i++) {
@@ -38,6 +56,12 @@ public class FuncionesDelMenu {
     }
 
     // Buscar alumnos
+    /**
+     * Función que recorre el array y que buscar si hay un alumno o no, y nos muestra el resultado
+     * @param numAulas
+     * @samuu2200
+     * @since 1.0
+     */
     public static void buscarAlumno(String[][] numAulas) {
         String nombreBuscar = Utilidades.pideDatoCadena("Introduce el nombre del alumno a buscar: ");
         boolean encontrado = false;
@@ -59,6 +83,12 @@ public class FuncionesDelMenu {
     }
 
     // Borrar alumno
+    /**
+     * Función que recorre el array que le pasamos por parámetro y si hay alguna coincidencia procede a borrar o sobreescribir el valor a [VACIO]
+     * @samuu2200
+     * @since 1.0
+     * @param numAulas
+     */
     public static void borrarAlumno(String[][] numAulas) {
         String nombreBorrar = Utilidades.pideDatoCadena("Introduce el nombre del alumno a borrar: ");
         boolean borrado = false;
