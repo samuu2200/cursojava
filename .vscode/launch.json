@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Instituto",
+            "request": "launch",
+            "mainClass": "es.cursojava.poo2.ejercicios.Instituto",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "PruebaPersona",
             "request": "launch",
             "mainClass": "es.cursojava.poo2.PruebaPersona",
