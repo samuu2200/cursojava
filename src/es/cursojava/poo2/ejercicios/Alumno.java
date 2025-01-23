@@ -30,7 +30,7 @@ public class Alumno {
         this.notaMedia = notaMedia;
         this.email = email;
         this.asignaturas = asignaturas;
-    }
+    } 
     
     // Getter y Setter
     // Nombre

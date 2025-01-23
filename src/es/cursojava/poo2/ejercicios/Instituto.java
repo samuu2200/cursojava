@@ -12,13 +12,41 @@ public class Instituto {
         Alumno alumno3 = new Alumno("Monse", "Britos", 22, 6, "monsebritos@gmail.com", asignaturasAlumno3);
 
         Alumno alumno4 = new Alumno();
+
+        // Metemos en un array todos los alumnos
+        Alumno[] alumnos = {alumno1, alumno2, alumno3, alumno4};
+
+        // Recorremos el array de alumnos con un for 
+/*         for (int i = 0; i < alumnos.length; i++) {
+            Alumno alumno = alumnos[i];
+            System.out.println(alumno.getNombre());
+
+            alumno.estudiar();
+
+            // Recuperamos las asignaturas que es un array
+            String[] asing = alumno.getAsignaturas();
+            if (asing != null) {
+                for (String asignatura : asing) {
+                    System.out.println("\t" + asignatura);
+                }
+            }
+        } */
+
+        // Recorremos el array de alumnos con un for each
+        for (Alumno alumno : alumnos) {
+            System.out.println(alumno.getNombre());
+
+            alumno.estudiar();
+
+            // Recuperamos las asignaturas que es un array
+            String[] asing = alumno.getAsignaturas();
+            if (asing != null) {
+                for (String asignatura : asing) {
+                    System.out.println("\t" + asignatura);
+                }
+            }
+        }
     }
 
-    // Metemos en un array todos los alumnos
-    Alumno[] alumnos = {Alumno(alumno1), Alumno(alumno2), Alumno(alumno3), Alumno(alumno4)};
+}
 
-    for (Alumno alumno : alumnos) {
-        System.out.println(alumno);
-    }
-}
-}
