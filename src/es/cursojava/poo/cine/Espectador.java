@@ -24,5 +24,4 @@ public class Espectador {
     public void setDni(String dni) {
         this.dni = dni;
     }
-
 }
