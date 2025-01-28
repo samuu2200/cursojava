@@ -1,5 +1,7 @@
 package es.cursojava.poo.cine;
 
+import java.util.Scanner;
+
 public class Espectador {
     // Variables de instancia
     private String nombre;
@@ -24,4 +26,6 @@ public class Espectador {
     public void setDni(String dni) {
         this.dni = dni;
     }
+
+
 }

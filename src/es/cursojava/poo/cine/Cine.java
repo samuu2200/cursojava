@@ -1,5 +1,7 @@
 package es.cursojava.poo.cine;
 
+import java.util.Scanner;
+
 public class Cine {
     // Variables de instancia
     private String nombre;
@@ -15,15 +17,17 @@ public class Cine {
     public String getNombre() {
         return nombre;
     }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     public Sala[] getSalas() {
         return salas;
     }
+
     public void setSalas(Sala[] salas) {
         this.salas = salas;
     }
 
-    
 }
