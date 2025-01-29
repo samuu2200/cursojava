@@ -4,13 +4,16 @@ public class Sala {
 
     private int numero;
     private String tituloPelicula;
-    private Espectador butacas[][];
+    private Espectador[][] butacas;
 
     // Constructor
     public Sala(int numero, String tituloPelicula, Espectador[][] butacas) {
         this.numero = numero;
         this.tituloPelicula = tituloPelicula;
         this.butacas = butacas;
+    }
+    public Sala(int numero) {
+        this.numero = numero;
     }
 
     // Getters & Setters
@@ -33,5 +36,10 @@ public class Sala {
         this.butacas = butacas;
     }
 
-    
+
+    public void mostraNumeroSala(Sala[] numeroSala) {
+        for (Sala sala : numeroSala) {
+            System.out.println(sala.getNumero());
+        }
+    }
 }
