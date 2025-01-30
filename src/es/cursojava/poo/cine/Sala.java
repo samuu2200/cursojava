@@ -12,9 +12,6 @@ public class Sala {
         this.tituloPelicula = tituloPelicula;
         this.butacas = butacas;
     }
-    public Sala(int numero) {
-        this.numero = numero;
-    }
 
     // Getters & Setters
     public int getNumero() {
@@ -36,10 +33,4 @@ public class Sala {
         this.butacas = butacas;
     }
 
-
-    public void mostraNumeroSala(Sala[] numeroSala) {
-        for (Sala sala : numeroSala) {
-            System.out.println(sala.getNumero());
-        }
-    }
 }

@@ -40,12 +40,4 @@ public class Espectador {
     public void setDni(String dni) {
         this.dni = dni;
     }
-
-    public int opcion(Espectador[] espectadores) {
-        int opcion = 0;
-        for (Espectador espectador : espectadores) {
-            opcion = Utilidades.pideDatoNumerico(nombre + " Elige una opción: ");
-        }
-        return opcion;
-    }
 }
