@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tienda",
+            "request": "launch",
+            "mainClass": "es.cursojava.herencia.maniqui.Tienda",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "Zoologico",
             "request": "launch",
             "mainClass": "es.cursojava.poo.herencia.Zoologico",
