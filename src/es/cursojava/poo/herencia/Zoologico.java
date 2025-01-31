@@ -12,9 +12,8 @@ public class Zoologico {
 
     private void abrirZoo() {
         Leon leon = new Leon("Mufasa", 190, true);
-        leon.comer();
-        leon.beber();
-        leon.cazar();
+     
+        
 
         Vaca vaca = new Vaca(2, "Lola", 150);
         vaca.mugir();

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BandaMusica",
+            "request": "launch",
+            "mainClass": "es.cursojava.herencia.instrumentos.BandaMusica",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "Tienda",
             "request": "launch",
             "mainClass": "es.cursojava.herencia.maniqui.Tienda",
