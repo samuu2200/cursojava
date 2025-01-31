@@ -6,7 +6,7 @@ public class PruebaCine {
 
     public static void main(String[] args) {
 
-        Sala sala1 = new Sala(1, "Interestelar", null)
+        Sala sala1 = new Sala(1, "Interestelar", null);
         
     }
 
