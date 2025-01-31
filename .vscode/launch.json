@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Zoologico",
+            "request": "launch",
+            "mainClass": "es.cursojava.poo.herencia.Zoologico",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "PruebaCine",
             "request": "launch",
             "mainClass": "es.cursojava.poo.cine.PruebaCine",
