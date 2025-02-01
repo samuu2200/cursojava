@@ -11,16 +11,16 @@ public class BandaMusica {
 
     private void empezarConcierto() {
         // Objeto guitarra
-        Instrumentos guitarra = new Guitarra(6, "Guitarra acustic", 1, true);
+        Instrumentos guitarra = new Guitarra(6, "Guitarra", 1, true);
 
         // Objeto guitarra electrica
-        Instrumentos guitarraElectrica = new GuitarraElectrica(4, "GuitarraPower", 5, false, 120.05);
+        Instrumentos guitarraElectrica = new GuitarraElectrica(4, "Guitarra Electrica", 5, false, 120.05);
 
         // Objeto piano
-        Instrumentos piano = new Piano("Hans Zimmer", 3, true, 8, 4);
+        Instrumentos piano = new Piano("Piano", 3, true, 8, 4);
         
         // Objeto tambor
-        Instrumentos tambor = new Tambor("Globillo", 9, true, "Madera");
+        Instrumentos tambor = new Tambor("Tambor", 9, true, "Madera");
 
         Instrumentos[] instrumentos = {guitarra, guitarraElectrica, piano, tambor};
 
