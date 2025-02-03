@@ -41,4 +41,5 @@ public class Ropa {
     public void setTalla(String talla) {
         this.talla = talla;
     }
+    
 }

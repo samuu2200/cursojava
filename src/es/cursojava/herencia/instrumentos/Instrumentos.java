@@ -36,7 +36,7 @@ public class Instrumentos {
     public boolean isAfinado() {
         return afinado;
     }
-
+    
     public void setAfinado(boolean afinado) {
         this.afinado = afinado;
     }
@@ -48,8 +48,6 @@ public class Instrumentos {
         System.out.println("\n-Afinando instrumento: " + nombre);
         if (Math.random() > 0.4) {
             afinado = true;
-        } else {
-            afinado = false;
         }
 
         if (!afinado) {

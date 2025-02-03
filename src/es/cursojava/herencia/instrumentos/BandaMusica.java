@@ -25,7 +25,7 @@ public class BandaMusica {
 
         afinarInstrumentos(instrumentos);
 
-        tocarInstrumentos(instrumentos);
+        tocarInstrumentos(instrumentos, tambor2);
     }
 
     public void afinarInstrumentos(Instrumentos[] instrumentos) {
@@ -39,15 +39,14 @@ public class BandaMusica {
         System.out.println("***************************");
     }
 
-    public void tocarInstrumentos(Instrumentos[] instrumentos) {
+    public void tocarInstrumentos(Instrumentos[] instrumentos, Tambor tambor) {
         System.out.println("\n***************************");
         System.out.println("-Los instrumentos han empezado a tocar");
         for (Instrumentos instrumento : instrumentos) {
             instrumento.tocar();
+            
         }
         System.out.println("***************************");
     }
-
-    
 
 }

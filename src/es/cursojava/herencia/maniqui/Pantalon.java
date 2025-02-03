@@ -15,4 +15,12 @@ public class Pantalon extends Ropa{
     public void btn(Boton btn) {
         this.btn = btn;
     }
+
+    public String toString() {
+        String padre = super.toString();
+        StringBuilder sb = new StringBuilder();
+        sb.append("Pantalon").append(padre);
+        sb.append("Botón").append(btn);
+        return sb.toString();
+    }
 }

@@ -10,7 +10,7 @@ public class Guitarra extends Instrumentos {
         this.numCuerdas = numCuerdas;
     }
     // Getter & Setters
-    public int getNumCuerdas() {
+    public int getNumCuerdas() { 
         return numCuerdas;
     }
     public void setNumCuerdas(int numCuerdas) {
