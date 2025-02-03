@@ -1,22 +1,18 @@
 package es.cursojava.herencia.instrumentos;
 
 public class Instrumentos {
-    // Variables de instancia de la clase padre
+    // Atributos
     private String nombre;
-    private int tipo;
+    private String tipo;
     private boolean afinado;
 
-    // Constructor
-    public Instrumentos(String nombre, int tipo, boolean afinado) {
+    // Constructores
+    public Instrumentos(String nombre, String tipo) {
         this.nombre = nombre;
         this.tipo = tipo;
-        this.afinado = afinado;
-    }
-    public Instrumentos() {
     }
 
-
-    // Getter & Setter
+    // Getters & Setter
     public String getNombre() {
         return nombre;
     }
@@ -25,40 +21,43 @@ public class Instrumentos {
         this.nombre = nombre;
     }
 
-    public int getTipo() {
+    public String getTipo() {
         return tipo;
     }
 
-    public void setTipo(int tipo) {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
     public boolean isAfinado() {
         return afinado;
     }
-    
+
     public void setAfinado(boolean afinado) {
         this.afinado = afinado;
     }
 
-    /**
-     * Método que le nos muestra si un instrumento está afinado o no
-     */
-    public void afinar() {
-        System.out.println("\n-Afinando instrumento: " + nombre);
-        if (Math.random() > 0.4) {
-            afinado = true;
-        }
 
-        if (!afinado) {
-            System.out.println("\t-El instrumento " + this.nombre + " no ha podido ser afinado");
+    public void afinar() {
+        afinado = Math.random() > 0.4;
+        if (afinado) {
+            System.out.println("-El instrumento " + nombre + " está afinado");
         } else {
-            System.out.println("\t-El instrumento " + this.nombre + " ha sido afinado");
+            System.out.println("-El instrumento " + nombre + " no está afinado");
         }
     }
 
     public void tocar() {
-        System.out.println("\t-El instrumento " + getNombre() + " ha empezado a tocar");
+        System.out.println("\tEl instrumento " + nombre + " está siendo tocado");
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Nombre del instrumento: ").append(nombre);
+        sb.append("Tipo de instrumentos: ").append(tipo);
+        sb.append("Afinado: ").append(afinado);
+        return sb.toString();
+    }
+    
 }

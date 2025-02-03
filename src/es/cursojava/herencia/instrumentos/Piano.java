@@ -1,18 +1,18 @@
 package es.cursojava.herencia.instrumentos;
 
 public class Piano extends Instrumentos {
-    // Variables de instancia
+    // Atributos
     private int numeroOctavas;
-    private int tipoPiano;
+    private String tipoPiano;
 
-    // Constructor que llama al constructor de la clase padre
-    public Piano(String nombre, int tipo, boolean afinado, int numeroOctavas, int tipoPiano) {
-        super(nombre, tipo, afinado);
+    // Constructores
+    public Piano(String nombre, String tipo, int numeroOctavas, String tipoPiano) {
+        super(nombre, tipo);
         this.numeroOctavas = numeroOctavas;
         this.tipoPiano = tipoPiano;
     }
 
-    // Getters & Setter
+    // Getter y Setters
     public int getNumeroOctavas() {
         return numeroOctavas;
     }
@@ -21,18 +21,26 @@ public class Piano extends Instrumentos {
         this.numeroOctavas = numeroOctavas;
     }
 
-    public int getTipoPiano() {
+    public String getTipoPiano() {
         return tipoPiano;
     }
 
-    public void setTipoPiano(int tipoPiano) {
+    public void setTipoPiano(String tipoPiano) {
         this.tipoPiano = tipoPiano;
     }
-
-    // Métodos
-    public void afinar() {
-        super.afinar();
-        System.out.println("\n-Afinando el " + getNombre());
-    }
     
+    @Override
+    public void tocar() {
+        super.tocar();
+        System.out.println("tAfinando " + getNombre());
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        super.toString();
+        sb.append(super.toString());
+        sb.append("Tipo de piano: ").append(tipoPiano);
+        sb.append("Número de octavas: ").append(numeroOctavas);
+        return sb.toString();
+    }
 }

@@ -1,52 +1,42 @@
 package es.cursojava.herencia.instrumentos;
 
+import java.util.Arrays;
+
 public class BandaMusica {
 
     public static void main(String[] args) {
-        // Objeto bandaMusica
-        BandaMusica bandaMusica = new BandaMusica();
-
-        bandaMusica.empezarConcierto();
+        BandaMusica banda = new BandaMusica();
+        Instrumentos[] instrumentos = banda.crearIntrumentos();
+        banda.empezarConcierto(instrumentos);
     }
 
-    private void empezarConcierto() {
-        // Objeto guitarra
-        Instrumentos guitarra = new Guitarra(6, "Guitarra", 1, true);
-        // Objeto guitarra electrica
-        Instrumentos guitarraElectrica = new GuitarraElectrica(4, "Guitarra Electrica", 5, false, 120.05);
-        // Objeto piano
-        Instrumentos piano = new Piano("Piano", 3, true, 8, 4);
-        // Objeto tambor
-        Instrumentos tambor = new Tambor("Tambor", 9, true, "Madera");
-
-        Tambor tambor2 = (Tambor) tambor;
-
-        Instrumentos[] instrumentos = {guitarra, guitarraElectrica, piano, tambor2};
-
-        afinarInstrumentos(instrumentos);
-
-        tocarInstrumentos(instrumentos, tambor2);
+    public Instrumentos[] crearIntrumentos() {
+        Instrumentos guitarra = new Guitarra("Guitarrita", "pro", 4);
+        Instrumentos guitarraElectrica = new Guitarra("Guitarra Electric", "proMax", 6);  
+        Instrumentos piano = new Piano("Piano guapis", "Yamaha", 8, "Ultra");
+        Instrumentos tambor = new Tambor("Tamborcito", "Globillo", "Madera");
+        return new Instrumentos[] {guitarra, guitarraElectrica, piano, tambor};
     }
 
-    public void afinarInstrumentos(Instrumentos[] instrumentos) {
-        System.out.println("***************************");
-        System.out.println("-Los instrumentos se están afinando");
-        for (int i = 0; i < instrumentos.length; i++) {
-            if (instrumentos[i].isAfinado()){
-                instrumentos[i].afinar();
+    public void empezarConcierto(Instrumentos[] instrumentos) {
+        afinarConcierto(instrumentos);
+        tocarInstrumentos(instrumentos);
+    }
+
+    public void afinarConcierto(Instrumentos[] instrumentos) {
+        crearIntrumentos();
+        System.out.println("===== AFINAR INSTRUMENTOS =====");
+        System.out.println(Arrays.toString(instrumentos));
+    }
+
+    public void tocarInstrumentos(Instrumentos[] instrumentos) {
+        for (Instrumentos instrumento : instrumentos) {
+            if (instrumento instanceof Tambor) {
+                ((Tambor)instrumento).aporrear();
+            } else {
+                instrumento.tocar();
             }
         }
-        System.out.println("***************************");
-    }
-
-    public void tocarInstrumentos(Instrumentos[] instrumentos, Tambor tambor) {
-        System.out.println("\n***************************");
-        System.out.println("-Los instrumentos han empezado a tocar");
-        for (Instrumentos instrumento : instrumentos) {
-            instrumento.tocar();
-            
-        }
-        System.out.println("***************************");
     }
 
 }

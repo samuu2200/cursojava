@@ -1,16 +1,16 @@
 package es.cursojava.herencia.instrumentos;
 
 public class Tambor extends Instrumentos{
-    // Variable de instancia
+    // Atributos
     private String material;
 
-    // Constructor
-    public Tambor(String nombre, int tipo, boolean afinado, String material) {
-        super(nombre, tipo, afinado);
+    // Constructores
+    public Tambor(String nombre, String tipo, String material) {
+        super(nombre, tipo);
         this.material = material;
     }
 
-    // Getters & Setters
+    // Getters y Setters
     public String getMaterial() {
         return material;
     }
@@ -21,12 +21,13 @@ public class Tambor extends Instrumentos{
 
     @Override
     public void afinar() {
-        System.out.println("\n-Afinando el " + getNombre());
+        setAfinado(true);
+        System.out.println("-El " + getNombre() + " está afinado");
     }
 
-    // Método exclusivo de tambor
-    public void tocar() {
-        System.out.println("\t-El " + getNombre() + " se está aporreando");
+    public void aporrear() {
+        System.out.println("-El " + getNombre() + " se está aporreando");
     }
+    
     
 }

@@ -1,28 +1,40 @@
 package es.cursojava.herencia.instrumentos;
 
 public class Guitarra extends Instrumentos {
-    // Variable de instancia
-    private int numCuerdas;
 
-    // Constructor que llama al constructor de la clase padre
-    public Guitarra(int numCuerdas, String nombre, int tipo, boolean afinado) {
-        super(nombre, tipo, afinado);
-        this.numCuerdas = numCuerdas;
-    }
-    // Getter & Setters
-    public int getNumCuerdas() { 
-        return numCuerdas;
-    }
-    public void setNumCuerdas(int numCuerdas) {
-        this.numCuerdas = numCuerdas;
-    }    
+    private int numeroCuerdas;
 
-    /**
-     * Llamamos al método de la clase padre y ampliamos su función
-     */
+    // Constructor
+    public Guitarra(String nombre, String tipo, int numeroCuerdas) {
+        super(nombre, tipo);
+        this.numeroCuerdas = numeroCuerdas;
+    }
+
+    public Guitarra(String nombre, String tipo) {
+        super(nombre, tipo);
+        this.numeroCuerdas = 4;
+    }
+
+    // Getter y Setter
+    public int getNumeroCuerdas() {
+        return numeroCuerdas;
+    }
+
+    public void setNumeroCuerdas(int numeroCuerdas) {
+        this.numeroCuerdas = numeroCuerdas;
+    }
+    
+    @Override
     public void afinar() {
         super.afinar();
-        System.out.println("\nAfinando " + getNombre());
+        System.out.println("\t-Afinando " + getNombre());
     }
 
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        super.toString();
+        sb.append(super.toString());
+        sb.append("Número de cuerdas: ").append(numeroCuerdas);
+        return sb.toString();
+    }
 }
