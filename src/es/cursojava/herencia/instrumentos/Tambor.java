@@ -25,7 +25,7 @@ public class Tambor extends Instrumentos{
     }
 
     // Método exclusivo de tambor
-    public void aporrear() {
+    public void tocar() {
         System.out.println("\t-El " + getNombre() + " se está aporreando");
     }
     
