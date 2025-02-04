@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PruebaVehiculos",
+            "request": "launch",
+            "mainClass": "es.cursojava.poo.vehiculos.PruebaVehiculos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "BandaMusica",
             "request": "launch",
             "mainClass": "es.cursojava.herencia.instrumentos.BandaMusica",
