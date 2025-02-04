@@ -84,35 +84,13 @@ public class Vehiculos {
     // Método calcular impuesto
     public void calcularImpuesto() {
         int impuestoBase = 200;
-        int anoActual = this.ano - LocalDate.now().getDayOfYear();
+        int antiguedad = this.ano - LocalDate.now().getYear();
         double calculoAno = 0;
         double calculoTipo = 0;
         double calculoVehiculo = 0;
         
-            String tipoVehiculo = this.tipo;
 
-            if (anoActual > 20) {
-                calculoAno = (impuestoBase * 0.10);
-            } else if (anoActual > 10) {
-                calculoAno = (impuestoBase * 0.05);
-            }
-            
-            if (tipoVehiculo.equalsIgnoreCase("Diesel") || tipoVehiculo.equalsIgnoreCase("Gasolina")) {
-                calculoTipo = calculoAno + (impuestoBase * 0.10);
-            } else if (tipoVehiculo.equalsIgnoreCase("Electrico")) {
-                calculoTipo = calculoAno + (impuestoBase * 0.10);
-            } else if (tipoVehiculo.equalsIgnoreCase("Hibrido")) {
-                calculoTipo = calculoAno + (impuestoBase * 0.05);
-            }
-            
-            if (this instanceof Camion) {
-                calculoVehiculo = calculoAno + calculoTipo + impuestoBase + (impuestoBase * 0.10);
-            } else if (this instanceof Coche) {
-                calculoVehiculo = calculoAno + calculoTipo + impuestoBase + (impuestoBase * 0.05);
-            } else if (this instanceof Motocicleta) {
-                calculoVehiculo = calculoAno + calculoTipo + impuestoBase + (impuestoBase * -0.05);
-            }
-
+        
         double impuestoTotal = calculoVehiculo;
         System.out.print("** IMPUESTO TOTAL: ");
         System.out.println(impuestoTotal);
