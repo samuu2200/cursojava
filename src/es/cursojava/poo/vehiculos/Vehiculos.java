@@ -99,9 +99,6 @@ public class Vehiculos {
             impuesto -= 0.10;
         }
 
-        
-        double impuestoTotal = calculoVehiculo;
-        System.out.print("** IMPUESTO TOTAL: ");
-        System.out.println(impuestoTotal);
+
     }
 }
