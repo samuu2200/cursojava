@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PruebaVehiculoCoche",
+            "request": "launch",
+            "mainClass": "es.cursojava.poo.vehiculos.PruebaVehiculoCoche",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "PruebaVehiculos",
             "request": "launch",
             "mainClass": "es.cursojava.poo.vehiculos.PruebaVehiculos",

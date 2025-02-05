@@ -83,12 +83,21 @@ public class Vehiculos {
 
     // Método calcular impuesto
     public void calcularImpuesto() {
-        int impuestoBase = 200;
-        int antiguedad = this.ano - LocalDate.now().getYear();
-        double calculoAno = 0;
-        double calculoTipo = 0;
-        double calculoVehiculo = 0;
-        
+        double impuestoBase = 200;
+        double impuesto = 0;
+        int antiguedad = ano - LocalDate.now().getYear();
+
+        if (antiguedad > 20) {
+            impuesto += 0.10;
+        } else if ( antiguedad > 10) {
+            impuesto += 0.05;
+        }
+
+        if (tipo.equalsIgnoreCase("Gasolina") || tipo.equalsIgnoreCase("Diesel")) {
+            impuesto += 0.10;
+        } else if (tipo.equalsIgnoreCase("Electrico")) {
+            impuesto -= 0.10;
+        }
 
         
         double impuestoTotal = calculoVehiculo;

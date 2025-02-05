@@ -1,5 +1,7 @@
 package es.cursojava.poo.vehiculos;
 
+import lombok.Getter;
+
 public class Camion extends Vehiculos {
     // Atributos
     private double capacidadCarga;
