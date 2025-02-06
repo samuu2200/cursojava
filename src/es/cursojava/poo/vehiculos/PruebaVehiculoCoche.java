@@ -1,4 +1,4 @@
-package es.cursojava.poo.vehiculos;
+/* package es.cursojava.poo.vehiculos;
 
 import es.cursojava.poo.herencia.ejercicios.vehiculos.MainVehiculos;
 import lombok.AllArgsConstructor;
@@ -19,3 +19,4 @@ public class PruebaVehiculoCoche {
     }
     
 }
+ */
