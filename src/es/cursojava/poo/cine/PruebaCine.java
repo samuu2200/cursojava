@@ -15,7 +15,7 @@ public class PruebaCine {
         
         // Objeto espectadores
         Espectador espectador1 = new Espectador("Darío", "0123A");
-        Espectador espectador2 = new Espectador("")
+
         
         // Obejto cine 
         Cine cine = new Cine("Pirineos", salas);
